@@ -1,8 +1,8 @@
-header{
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 90%;
   margin: 1rem auto;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -16,7 +16,7 @@ nav {
   gap: 1rem;
 }
 
-.nav__logo{
+.nav__logo {
   font-size: 2rem;
   font-style: italic;
   font-family: open sans;
@@ -31,12 +31,12 @@ nav {
   align-items: stretch;
 }
 
-.nav__search{
+.nav__search {
   background-color: transparent;
   border: none;
 }
 
-.nav__input{
+.nav__input {
   background-color: transparent;
   border: none;
   flex: 1;
@@ -53,7 +53,7 @@ nav ul {
   gap: 1rem;
 }
 
-nav ul li{
+nav ul li {
   margin-left: 1rem;
 }
 
@@ -65,7 +65,7 @@ nav ul li a {
 }
 
 nav ul li a::after {
-  content: '';
+  content: "";
   width: 0%;
   height: 0.1rem;
   background-color: rgb(0, 0, 0);
@@ -79,7 +79,7 @@ nav ul li a:hover::after {
   width: 100%;
 }
 
-.nav__icons{
-  padding: 0.25rem .5rem;
+.nav__icons {
+  padding: 0.25rem 0.5rem;
   margin-left: 1rem;
 }

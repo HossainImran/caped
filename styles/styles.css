@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 
 * {
   margin: 0;
@@ -8,25 +8,25 @@
 }
 
 :root {
-  --clr-bgc: #E0E2F0; 
-  --clr-input: #CECFD0;
-  --clr-box1top: #BDB1D8;
-  --clr-box1bottom: #6F5997;
-  --clr-box2top: #9CD5E6;
-  --clr-box2bottom: #3A8AA0;
-  --clr-box3top: #FFB8BC;
-  --clr-box3bottom: #F29CA7;
-  --clr-box4top: #AEE5E5;
-  --clr-box4bottom: #00A7A7;
-  --clr-box5: #F4DE4D;
-  --clr-box6: #E9E5E2;
+  --clr-bgc: #e0e2f0;
+  --clr-input: #cecfd0;
+  --clr-box2top: #bdb1d8;
+  --clr-box2bottom: #6f5997;
+  --clr-box3top: #9cd5e6;
+  --clr-box3bottom: #3a8aa0;
+  --clr-box5top: #ffb8bc;
+  --clr-box5bottom: #f29ca7;
+  --clr-box6top: #aee5e5;
+  --clr-box6bottom: #00a7a7;
+  --clr-box7: #f4de4d;
+  --clr-box8: #e9e5e2;
+  --clr-lightgray: rgba(128, 128, 128, 0.4);
 
+  --clr-text1: #001aa2;
+  --clr-text2: #fd2e24;
 
-  --clr-text1: #001AA2;
-  --clr-text2: #FD2E24;
-
-  --trans-normal: all .3s ease;
-  --trans-slow: all .4s ease;
+  --trans-normal: all 0.3s ease;
+  --trans-slow: all 0.4s ease;
 }
 
 button {
@@ -42,13 +42,7 @@ i {
 
 .container {
   width: 90%;
-  height: 90vh;
   background-color: var(--clr-bgc);
   margin: auto;
-  position: absolute;
-  top: 5%;
-  left: 5%;
   border-radius: 1.4rem;
 }
-
-
