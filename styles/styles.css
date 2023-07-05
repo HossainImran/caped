@@ -10,16 +10,18 @@
 :root {
   --clr-bgc: #e0e2f0;
   --clr-input: #cecfd0;
+  --clr-box1: #bce7f0;
   --clr-box2top: #bdb1d8;
   --clr-box2bottom: #6f5997;
   --clr-box3top: #9cd5e6;
   --clr-box3bottom: #3a8aa0;
+  --clr-box4: #173a4c;
   --clr-box5top: #ffb8bc;
   --clr-box5bottom: #f29ca7;
   --clr-box6top: #aee5e5;
   --clr-box6bottom: #00a7a7;
   --clr-box7: #f4de4d;
-  --clr-box8: #e9e5e2;
+  --clr-box8: #ebe7e4;
   --clr-lightgray: rgba(128, 128, 128, 0.4);
 
   --clr-text1: #001aa2;
@@ -45,4 +47,18 @@ i {
   background-color: var(--clr-bgc);
   margin: auto;
   border-radius: 1.4rem;
+  border: 1px solid red;
+}
+
+@media (max-width: 320px) {
+}
+@media (max-width: 375px) {
+}
+@media (max-width: 425px) {
+}
+@media (max-width: 768px) {
+}
+@media (min-width: 1024px) {
+}
+@media (max-width: 600px) {
 }
