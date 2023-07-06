@@ -116,7 +116,7 @@ h2 {
 }
 
 .box1 {
-  background-image: url("/img/image_1.jpg");
+  background-image: url("../img/image_1.jpg");
   display: flex;
   align-items: center;
   justify-content: center;
@@ -130,35 +130,35 @@ h2 {
 }
 
 .box2 {
-  background-image: url("/img/image_2.jpg");
+  background-image: url("../img/image_2.jpg");
   text-align: center;
   background-position: center;
   background-size: cover;
 }
 
 .box3 {
-  background-image: url("/img/image_3.jpg");
+  background-image: url("../img/image_3.jpg");
   text-align: center;
   background-position: center;
   background-size: cover;
 }
 
 .box4 {
-  background-image: url("/img/image_4.jpg");
+  background-image: url("../img/image_4.jpg");
   text-align: center;
   background-position: center;
   background-size: cover;
 }
 
 .box5 {
-  background-image: url("/img/image_5.jpg");
+  background-image: url("../img/image_5.jpg");
   text-align: center;
   background-position: center;
   background-size: cover;
 }
 
 .box6 {
-  background-image: url("/img/image_6.jpg");
+  background-image: url("../img/image_6.jpg");
   text-align: center;
   background-position: center;
   background-size: cover;
@@ -168,7 +168,7 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url("/img/image_7.jpg");
+  background-image: url("../img/image_7.jpg");
   background-position: center;
   background-size: cover;
   text-align: start;
@@ -178,7 +178,7 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url("/img/image_8.jpg");
+  background-image: url("../img/image_8.jpg");
   background-position: center;
   background-size: cover;
   text-align: start;
