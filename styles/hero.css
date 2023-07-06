@@ -116,7 +116,7 @@ h2 {
 }
 
 .box1 {
-  background-image: url("./img/image_1.jpg");
+  background-image: url("/img/image_1.jpg");
   display: flex;
   align-items: center;
   justify-content: center;
