@@ -20,11 +20,8 @@
     <header>
       <h1 class="nav__logo">Caped</h1>
       <nav>
-        <div class="nav__bars">
-          <button><i class="fa-solid fa-bars"></i></button>
-        </div>
         <div class="nav__section">
-          <ul>
+          <ul class="nav__links">
             <li><a href="#">Products</a></li>
             <li><a href="#">Story</a></li>
             <li><a href="#">Manufacturing</a></li>
@@ -38,7 +35,34 @@
             <button class="nav__icons"><i class="fa-solid fa-user"></i></button>
           </ul>
         </div>
+        <div class="nav__bars">
+          <button
+            class="togglebtn"
+            onclick="
+              toggle();
+            "
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
       </nav>
+      <div class="dropdown_menu">
+        <ul>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Story</a></li>
+          <li><a href="#">Manufacturing</a></li>
+          <li><a href="#">Packaging</a></li>
+          <button class="drop__nav__icons">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+          <button class="drop__nav__icons">
+            <i class="fa-solid fa-basket-shopping"></i>
+          </button>
+          <button class="drop__nav__icons">
+            <i class="fa-solid fa-user"></i>
+          </button>
+        </ul>
+      </div>
     </header>
 
     <section class="hero__section">
@@ -96,6 +120,11 @@
       </div>
     </section>
 
-    <script src="script.js"></script>
+    <script>
+      let dropdownMenu = document.querySelector(".dropdown_menu");
+      function toggle() {
+        dropdownMenu.classList.toggle("open");
+      }
+    </script>
   </body>
 </html>

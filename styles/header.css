@@ -55,25 +55,26 @@ nav {
   font-size: 1rem;
 }
 
-nav ul {
+.nav__links {
   list-style: none;
   display: flex;
   align-items: center;
   gap: 0.5rem;
 }
 
-nav ul li {
+.nav__links li {
   margin-left: 1rem;
 }
 
-nav ul li a {
+.nav__links li a {
   text-decoration: none;
   color: black;
   position: relative;
   font-size: 1rem;
+  font-weight: 500;
 }
 
-nav ul li a::after {
+.nav__links li a::after {
   content: "";
   width: 0%;
   height: 0.1rem;
@@ -84,7 +85,7 @@ nav ul li a::after {
   transition: var(--trans-slow);
 }
 
-nav ul li a:hover::after {
+.nav__links li a:hover::after {
   width: 100%;
 }
 
@@ -92,17 +93,77 @@ nav ul li a:hover::after {
   margin-left: 1rem;
 }
 
+.dropdown_menu.open {
+  height: 100%;
+}
+
+.dropdown_menu {
+  display: none;
+  width: 100%;
+  height: 0;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  background-color: var(--clr-bgc);
+  z-index: 100;
+  overflow: hidden;
+  transition: var(--trans-slow);
+}
+.dropdown_menu ul {
+  display: block;
+  list-style: none;
+  text-align: center;
+}
+
+.dropdown_menu ul li {
+  margin-top: 2rem;
+}
+
+.dropdown_menu ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  position: relative;
+  font-weight: 600;
+}
+
+.dropdown_menu li a::after {
+  content: "";
+  width: 0%;
+  height: 0.15rem;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  top: 1.8rem;
+  left: 0;
+  transition: var(--trans-slow);
+}
+
+.dropdown_menu li a:hover::after {
+  width: 100%;
+}
+
+.drop__nav__icons {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 2.5rem;
+}
+
+.fa-solid {
+  font-size: 1.2rem;
+}
+
 @media (max-width: 768px) {
   .nav__logo {
     font-size: 1.5rem;
   }
-  nav ul li a {
+  .nav__links li a {
     font-size: 0.8rem;
+    font-weight: 500;
   }
   .nav__icons {
     margin-left: 0.5rem;
   }
-  nav ul li {
+  .nav__links li {
     margin-left: 0.8rem;
   }
   i {
@@ -111,10 +172,13 @@ nav ul li a:hover::after {
 }
 
 @media (max-width: 600px) {
-  nav ul {
+  .nav__links {
     display: none;
   }
   .nav__bars {
+    display: block;
+  }
+  .dropdown_menu {
     display: block;
   }
 }

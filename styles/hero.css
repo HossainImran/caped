@@ -307,3 +307,34 @@ h2 {
     margin-left: 1rem;
   }
 }
+
+@media (max-width: 1024px) {
+  .box h4 {
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+    margin-left: 1.2rem;
+  }
+
+  .box p {
+    font-size: 0.5rem;
+    font-weight: 700;
+    margin-left: 1.2rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .box h4 {
+    font-size: 0.6rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+  }
+
+  .box p {
+    font-size: 0.5rem;
+    font-weight: 700;
+    margin-left: 0.5rem;
+  }
+  .box1 h3 {
+    font-size: 1rem;
+  }
+}
